@@ -12,8 +12,11 @@
   },
   "homepage": "https://github.com/areguera/terraform-local-greeting#readme",
   "devDependencies": {
-    "commitizen": "^4.2.5",
     "@semantic-release/github": "^8.0.4",
+    "commitizen": "^4.2.5",
+    "cz-emoji": "^1.3.1",
+    "cz-cli": "^1.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.3"
   },
   "release": {
@@ -30,7 +33,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-emoji"
     }
   }
 }
