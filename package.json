@@ -29,7 +29,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "node_modules/.bin/git-cz"
+      "path": "node_modules/.bin/gitcz"
     }
   }
 }
