@@ -12,11 +12,8 @@
   },
   "homepage": "https://github.com/areguera/terraform-local-greeting#readme",
   "devDependencies": {
-    "@semantic-release/github": "^8.0.4",
     "commitizen": "^4.2.5",
-    "cz-cli": "^1.0.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^19.0.3"
+    "git-cz": "^4.9.0"
   },
   "release": {
     "branches": [
@@ -32,7 +29,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/.bin/git-cz"
     }
   }
 }
